@@ -1,0 +1,29 @@
+.site-layout-sub-header-background {
+    background: #fff;
+}
+
+.site-layout-background {
+    background: #fff;
+}
+
+.ant-layout {
+    padding: 0;
+}
+
+.ant-btn-primary span{
+    color: white !important;
+}
+
+.ant-menu-item-icon svg path {
+    fill: white;
+}
+
+@media (max-width: 767.9px) {
+    .mobile-side-bar {
+        position: fixed;
+        z-index: 3;
+        left: 0;
+        height: 100vh;
+    }
+}
+
